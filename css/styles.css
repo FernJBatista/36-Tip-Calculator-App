@@ -198,6 +198,10 @@ body {
   }
 }
 
+h1 {
+  position: absolute;
+}
+
 img {
   margin-top: 4rem;
 }
@@ -216,11 +220,6 @@ main {
   padding: 2rem;
   border-radius: 1.5rem 1.5rem 0 0;
   background-color: var(--White);
-}
-main h1 {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
 }
 @media screen and (min-width: 64rem) {
   main {
