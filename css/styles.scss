@@ -229,6 +229,10 @@ main {
     border-radius: 1.5rem 1.5rem 0 0 ;
     background-color: var(--White);
 
+    h1 {
+        display: none;
+    }
+
     @media screen and (min-width: $desktop-breakpoint) {
         position: relative;
         flex-direction: row;
