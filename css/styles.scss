@@ -213,7 +213,7 @@ body {
 
 img {
     margin-top: 4rem;
-
+    
     @media screen and (min-width: $desktop-breakpoint) {
         margin-top: 0;
     }
@@ -230,7 +230,9 @@ main {
     background-color: var(--White);
 
     h1 {
-        display: none;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
     }
 
     @media screen and (min-width: $desktop-breakpoint) {

@@ -218,7 +218,9 @@ main {
   background-color: var(--White);
 }
 main h1 {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
 }
 @media screen and (min-width: 64rem) {
   main {
