@@ -224,6 +224,7 @@ main {
     bottom: unset;
     max-width: 64rem;
     border-radius: 1.5rem;
+    height: auto;
   }
 }
 main #calculator {
