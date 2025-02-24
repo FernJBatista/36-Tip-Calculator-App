@@ -53,6 +53,7 @@ numOfPeople.addEventListener('input', event => {
 
 //Tip Percentage Value (From tip % buttons)
 let tipPercentage = 0.05;
+
 tipButtons.forEach(tipButton => {
     tipButton.addEventListener('click', event => {
         // Remove active class from all buttons
