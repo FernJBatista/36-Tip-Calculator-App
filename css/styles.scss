@@ -213,9 +213,15 @@ body {
 }
 
 header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     h1 {
         opacity: 0;
         visibility: hidden;
+        position: absolute;
     }
     
     img {
@@ -233,7 +239,7 @@ main {
     width: 100%;
     max-width: $tablet-breakpoint;
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem 1.5rem 0 0;
     background-color: var(--White);
 
     @media screen and (min-width: $desktop-breakpoint) {
